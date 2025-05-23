@@ -21,4 +21,6 @@ Serial.print("Current Fahrenheit Temperature: ");
 Serial.println((temp * 9.0/5.0) + 32.0);
 Serial.println();
 delay(3000);
+
+  //TODO create "get" and "set" functions for Temperature and Celsius
 }
